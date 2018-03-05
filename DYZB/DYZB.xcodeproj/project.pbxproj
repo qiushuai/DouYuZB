@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A6E9EA96204CE31F00521B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E9EA95204CE31F00521B51 /* AppDelegate.swift */; };
-		A6E9EA98204CE31F00521B51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E9EA97204CE31F00521B51 /* ViewController.swift */; };
 		A6E9EA9B204CE31F00521B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E9EA99204CE31F00521B51 /* Main.storyboard */; };
 		A6E9EA9E204CE31F00521B51 /* DYZB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6E9EA9C204CE31F00521B51 /* DYZB.xcdatamodeld */; };
 		A6E9EAA0204CE31F00521B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E9EA9F204CE31F00521B51 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		A6E9EA92204CE31F00521B51 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E9EA95204CE31F00521B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6E9EA97204CE31F00521B51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6E9EA9A204CE31F00521B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6E9EA9D204CE31F00521B51 /* DYZB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DYZB.xcdatamodel; sourceTree = "<group>"; };
 		A6E9EA9F204CE31F00521B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +54,8 @@
 		A6E9EA94204CE31F00521B51 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				A6E9EAAA204CF16800521B51 /* Classes */,
 				A6E9EA95204CE31F00521B51 /* AppDelegate.swift */,
-				A6E9EA97204CE31F00521B51 /* ViewController.swift */,
 				A6E9EA99204CE31F00521B51 /* Main.storyboard */,
 				A6E9EA9F204CE31F00521B51 /* Assets.xcassets */,
 				A6E9EAA1204CE31F00521B51 /* LaunchScreen.storyboard */,
@@ -65,6 +63,61 @@
 				A6E9EA9C204CE31F00521B51 /* DYZB.xcdatamodeld */,
 			);
 			path = DYZB;
+			sourceTree = "<group>";
+		};
+		A6E9EAAA204CF16800521B51 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9EAB0204CF16800521B51 /* Main */,
+				A6E9EAAB204CF16800521B51 /* Home */,
+				A6E9EAAF204CF16800521B51 /* Live */,
+				A6E9EAAD204CF16800521B51 /* Follow */,
+				A6E9EAAE204CF16800521B51 /* Profile */,
+				A6E9EAAC204CF16800521B51 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		A6E9EAAB204CF16800521B51 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A6E9EAAC204CF16800521B51 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A6E9EAAD204CF16800521B51 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		A6E9EAAE204CF16800521B51 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A6E9EAAF204CF16800521B51 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		A6E9EAB0204CF16800521B51 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E9EA9E204CE31F00521B51 /* DYZB.xcdatamodeld in Sources */,
-				A6E9EA98204CE31F00521B51 /* ViewController.swift in Sources */,
 				A6E9EA96204CE31F00521B51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 229S2SWYQH;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.aononghui.com.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,7 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 229S2SWYQH;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.aononghui.com.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
